@@ -1,8 +1,8 @@
 name: Build Component in Native Environment
 
 on:
-  push:
-    branches: [ main, 'sprint/**', 'release/**', develop ]
+  # push:
+  #   branches: [ main, 'sprint/**', 'release/**', develop ]
   pull_request:
     branches: [ main, 'sprint/**', 'release/**', topic/RDK*, develop ]
 
